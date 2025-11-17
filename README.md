@@ -154,7 +154,3 @@ Badge metadata and images are uploaded to Pinata/IPFS, and the response includes
 - **EVM Airdrop Service** – use the captured MetaMask addresses to trigger ERC-721 or ERC-1155 drops on Moonbeam or an EVM testnet.
 - **On-chain Analytics** – export Supabase data into a cross-chain dashboard to highlight attendance streaks, reward eligibility, and badge rarity.
 - **Custom Themes** – adapt the UI copy/branding to other hackathon tracks while keeping the wallet + API infrastructure intact.
-
----
-
-Questions or looking to extend the proof of concept? Join the Polkadot hackathon support channel (see the Resources tab) or file an issue in this repo. Let’s keep bridging Web2 familiarity with the radically open, radically useful Polkadot stack.
