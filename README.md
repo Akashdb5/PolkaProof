@@ -55,7 +55,7 @@ npm install
 
 ### 3. Environment Configuration
 
-Copy `.env.example` → `.env.local` (or `.env`) and fill in:
+Copy `.env.example` → `.env` and fill in:
 
 | Variable | Description |
 | --- | --- |
