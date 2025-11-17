@@ -1,0 +1,28 @@
+# Node / Next.js
+.next/
+node_modules/
+dist/
+.turbo/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+package-lock.json
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.idea/
+.vscode/
+
+# Supabase & scripts
+supabase/.temp/
+*.local

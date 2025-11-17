@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  color-scheme: dark;
+  --polka-pink: #e6007a;
+  --polka-purple: #a100ff;
+  --polka-blue: #0ea5e9;
+}
+
+body {
+  margin: 0;
+  background: #050315;
+  color: #e2e8f0;
+}
+
+.bg-grid {
+  background-image: radial-gradient(circle at 1px 1px, #1f2937 1px, transparent 0);
+  background-size: 30px 30px;
+}
+
+.bg-polka-pink {
+  background: var(--polka-pink);
+}
+
+.card {
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(15, 23, 42, 0.85);
+  box-shadow: 0 20px 60px rgba(5, 3, 21, 0.75);
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: 999px;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  background: rgba(248, 250, 252, 0.08);
+  color: #f8fafc;
+}
+
+button {
+  cursor: pointer;
+}
