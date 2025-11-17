@@ -48,7 +48,7 @@ Backend (Next.js Routes)
 ### 2. Install Dependencies
 
 ```bash
-git clone https://github.com/your-org/polkaproof.git
+git clone https://github.com/Akashdb5/PolkaProof.git
 cd PolkaProof
 npm install
 ```
